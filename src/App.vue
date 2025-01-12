@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import Counter from './components/Counter.vue'
+import CycleStep from './components/steps/CycleStep.vue'
+import Counter from './components/StoredCounter.vue'
+import TestBuilder from './components/TestBuilder.vue'
 </script>
 
 <template>
@@ -14,7 +15,7 @@ import Counter from './components/Counter.vue'
   </header>
 
   <main>
-    <TheWelcome />
+    <TestBuilder />
     <Counter />
   </main>
 </template>
